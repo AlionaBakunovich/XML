@@ -1,1 +1,23 @@
+<ID>TC1</ID>
+<priority>Smoke</priority>
+<requirements>REQ1</requirements>
+<component>new user registration</component>
+<summary>registering a new user using a mobile phone</summary>
+<steps to reproduce>
+  <step1>open the site<s/tep1>
+  <step2>enter the phone number in the input window 'Mobile'</step2>
+  <step3>wait for an SMS with a code</step3>
+  <step4>enter the code in the input window  that appears</step4>
+  <step5>click on the button 'Registration'</step5></steps to reproduce>
+<expected result> 
+  <step1>the site is loading</step1>
+  <step2>the phone number is displayed in the input window 'Mobile'</step2>
+  <step3>the code comes to the phone number</step3>
+  <step4>code is displayed in a new input window</step4>
+  <step5>a message  about successful registration appears</step5></expected result> 
+ <actual result> 
+ <step1>the site is loading</step1>
+ <step2>the phone number is not displayed in the input window 'Mobile'</step2></actual result> 
+ <status>create issue</status>
+
 
